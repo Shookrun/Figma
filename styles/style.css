@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navBar{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* justify-content: space-between; */
+}
+
+.navOne{
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    justify-content: center;
+    gap:20px;
+    width: 50%;
+}
+.navBar .navBtn{
+    display: flex;
+    /* background-color: blue; */
+    width: 30%;
+    justify-content: space-between;
+}
+
+.navBar .navBtn a{
+    color:black;
+
+}
+
+
+
+.navTwo{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    /* background-color: aquamarine; */
+    align-items: center;
+    width: 50%;
+}
+
+.navTwo .twoBtn{
+    color:#23A6F0;
+}
+
+.blueBtn{
+    color:white;
+    background-color: #23A6F0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.sectionOne{
+    display: flex;
+    background-color: #B2E3FF;
+}
+
+.sectionOne .sectionFirst{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    /* background-color: red; */
+    align-items: center;
+}
+
+.sectionOne .pHeaderDiv{
+    /* background-color: green; */
+    width: 60%;
+    color: #23A6F0;
+}
+.sectionOne .sectionHeader{
+    /* background-color: gold; */
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    gap: 25px;
+}
+
+
+.sectionOneBtn{
+    /* background-color: green; */
+    width: 60%;
+}
+.sectionHeader h2{
+    font-size: 50px;
+}
+
+.sectionOneBtn .borderBtn{
+    padding: 20px;
+    color:#23A6F0;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+
+
+.sectionTwo{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sectionTwo .card{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    padding: 20px;
+    justify-content: space-around;
+    height: 30vh;
+    box-shadow: 10px 20px 20px black;
+    /* background-color: green; */
+}
+
+.sectionTwo .card .iconDiv{
+    background-color: #23A6F0;
+    width: 13%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px;
+}
+
+.sectionTwo .card h2{
+    display: flex;
+    flex-direction: column;
+}
+.sectionTwo .card h2::after{
+    content: "";
+    background-color: blue;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    width: 10%;
+    height: 3px;
+
+}
